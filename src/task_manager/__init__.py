@@ -1,2 +1,5 @@
-def main() -> None:
-    print("Hello from task-manager!")
+"""Console task manager built with a layered architecture."""
+
+from task_manager.cli.main import main
+
+__all__ = ["main"]

@@ -1,10 +1,12 @@
 [project]
 name = "task-manager"
 version = "0.1.0"
-description = "Add your description here"
+description = "Консольный менеджер задач с хранением в JSON"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "colorama>=0.4.6",
+]
 
 [project.scripts]
 task-manager = "task_manager:main"
@@ -12,3 +14,23 @@ task-manager = "task_manager:main"
 [build-system]
 requires = ["uv_build>=0.13.1,<0.14.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.14.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 79
+target-version = "py314"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "SIM"]
+
+[tool.ruff.format]
+quote-style = "double"

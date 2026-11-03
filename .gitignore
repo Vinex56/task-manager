@@ -8,3 +8,19 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Test / lint caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+
+# Application data (created at runtime)
+tasks.json
+tasks.json.tmp
+tasks.json.corrupt-*
+tasks_export_*.csv
+tasks_export_*.txt
