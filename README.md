@@ -1,8 +1,22 @@
-# Консольный менеджер задач (To-Do list)
+<div align="center">
 
-Учебный проект по **кейсу 7**: консольная программа на Python для ведения
-персонального списка задач с сохранением в JSON, валидацией ввода,
-сортировкой, фильтрацией, поиском и экспортом.
+# 📝 Консольный менеджер задач
+
+**To-Do list на Python** · учебный проект по кейсу 7
+
+[![Python](https://img.shields.io/badge/Python-3.14-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![uv](https://img.shields.io/badge/managed%20by-uv-DE5FE9)](https://docs.astral.sh/uv/)
+![tests](https://img.shields.io/badge/tests-102%20passed-success)
+[![ruff](https://img.shields.io/badge/lint-ruff-261230?logo=ruff&logoColor=white)](https://docs.astral.sh/ruff/)
+
+Консольная программа для ведения персонального списка задач с сохранением в
+JSON, валидацией ввода, сортировкой, фильтрацией, поиском и экспортом.
+
+</div>
+
+> 🎓 **Курс:** Python-разработчик с использованием инструментов ИИ<br>
+> 👤 **Выполнил:** Елизаров Кирилл Андреевич · **Группа:** ПР-5-Р<br>
+> 📅 **Срок обучения:** 05.10.2026–09.11.2026 · **Кейс:** № 7
 
 Проект собран на [`uv`](https://docs.astral.sh/uv/), разделён на логические
 слои и использует архитектурный паттерн **Repository** вместе с разделением
